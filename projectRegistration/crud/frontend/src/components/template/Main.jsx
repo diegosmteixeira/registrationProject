@@ -1,13 +1,13 @@
-import './Main.css'
 import React from 'react'
+import './Main.css'
 import Header from './Header'
 
 const props = () => (
     <React.Fragment>
-    <Header />
-    <main className="content">
-        Conteúdo
-    </main>
+        <Header {...props} />
+        <main className="content">
+            Conteúdo
+        </main>
     </React.Fragment>
 )
 export default props
