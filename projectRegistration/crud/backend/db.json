@@ -1,0 +1,12 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "Diego Teixeira",
+        "email" : "programa10@programador.com"
+
+    }, {
+        "id": 1,
+        "name": "Vanessa Teixeira",
+        "email" : "analisa10@psicologia.com"
+    }]
+}
