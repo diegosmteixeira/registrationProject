@@ -3,17 +3,19 @@
  import 'font-awesome/css/font-awesome.min.css'
  import React from 'react'
 
+ import { BrowserRouter } from 'react-router-dom'
+
  import Logo from '../components/template/Logo'
  import Nav from '../components/template/Nav'
- import Main from '../components/template/Main'
+ import Routes from './Routes'
  import Footer from '../components/template/Footer'
 
- const props = () => (
-    <div className="app">
-    <Logo />
-    <Nav />
-    <Main />
-    <Footer />
-    </div>
- )
- export default props
+ export default props =>
+   <BrowserRouter>
+      <div className="app">
+         <Logo />
+         <Nav />
+         <Routes />
+         <Footer />
+      </div>
+   </BrowserRouter>
